@@ -10,13 +10,16 @@ if (!isset($_SESSION['username'])) {
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title class="wlcm">Welcome</title>
 </head>
 <body>
+    
     <?php echo "<h1>Welcome " . $_SESSION['username'] . "</h1>"; ?>
-    <a href="logout.php">Logout</a>
+    <a class="logout" href="logout.php">Logout</a>
 </body>
 </html>
