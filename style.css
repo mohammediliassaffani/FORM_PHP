@@ -19,12 +19,14 @@ body {
 }
 
 .container {
+    border-radius: 50px;
     width: 400px;
     min-height: 400px;
-    background: #FFF;
+    background:#315877
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0,0,0,.3);
     padding: 40px 30px;
+    
 }
 
 .container .login-text {
@@ -64,7 +66,7 @@ body {
 }
 
 .container .login-social a.twitter {
-    background: #1DA1F2;
+    background: #3c4347;
 }
 
 .container .login-social a.google-plus {
